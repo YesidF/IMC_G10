@@ -1,0 +1,16 @@
+spring:
+  jpa:
+    show-sql: True
+    hibernate:
+      ddl-auto: update
+  datasource:
+    url: jdbc:postgresql://ec2-100-24-169-249.compute-1.amazonaws.com/d2atls0bkfmltf
+    username: wrtiikxckwpzvj
+    password: cdb2a9a9028a17aa7494799aceb259e522a63a25b68dc7c765a357dfff453338 
+
+config:
+  datetimeFormat: dd/MM/yyyy hh:mm:ss
+  decimalFormat: "#.00"
+ 
+jwt:
+  password: 54a3962275dd3130c7f31b665d1135a2
